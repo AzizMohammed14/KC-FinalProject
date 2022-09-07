@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Changa:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  user-select: none;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: rgb(64,64,64);
+background: linear-gradient(0deg, rgba(64,64,64,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.card{
+  width: 650px;
+  height: 350px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #000;
+  box-shadow: -5px 5px 10px rgba(0,0,0,0.7),
+              5px 5px 10px rgba(0,0,0,0.7);
+}
+
+.card-thumbnail{
+  position: relative;
+  width: 250px;
+  overflow: hidden;
+}
+
+.card-thumbnail img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body{
+  width: 400px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 12px;
+  color: #bdb8b8;
+}
+
+.card-title{
+  color: #e8e8e8;
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
+p{
+  margin-top: -20px;
+
+}
+
+.stars{
+  margin-top: -10px;
+}
+
+p span{
+  margin-right: 10px;
+}
+
+.stars i{
+  margin-right: 5px;
+}
+
+.card-description{
+  text-align: justify;
+  font-family: 'Changa', sans-serif;
+}
+
+.trailer{
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 7px 10px;
+  border-radius: 5px;
+  transition: 0.2s ease;
+  font-family: 'Changa', sans-serif;
+}
+
+.trailer:hover{
+    border: 2px solid slateblue;
+}
+
+.trailer a {
+    text-decoration: none;
+    color: white;
+}
+
